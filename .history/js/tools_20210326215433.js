@@ -212,8 +212,8 @@ function showEcharts(){
         }
         
     }
-    // console.log(dateArr);
-    // console.log(timeArr);
+    console.log(dateArr);
+    console.log(timeArr);
     let option = {
         title: {
             text: '学习记录',
@@ -247,13 +247,6 @@ function showEcharts(){
             barMaxWidth: '40%',
             itemStyle:{
                 color: '#555',
-                normal: {
-                    label: {
-                        show: true,
-                        position: 'top',
-                        formatter: '{c}分钟'
-                    }
-                }
                 
             }
             }]

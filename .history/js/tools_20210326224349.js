@@ -212,8 +212,8 @@ function showEcharts(){
         }
         
     }
-    // console.log(dateArr);
-    // console.log(timeArr);
+    console.log(dateArr);
+    console.log(timeArr);
     let option = {
         title: {
             text: '学习记录',
