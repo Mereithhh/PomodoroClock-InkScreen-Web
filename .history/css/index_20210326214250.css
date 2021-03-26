@@ -10,7 +10,7 @@ src: url('../font/iconfont.ttf') format('truetype');
 }
 /*css 初始化 */
 html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
-fieldset, img,input,button { font-family:"Times New Roman","Microsoft YaHei","SimSun";   ;border:none; padding:0;margin:0;outline-style:none; }  /*去掉边框、去掉轮廓（比如输入框外面的蓝边框）*/
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }  /*去掉边框、去掉轮廓（比如输入框外面的蓝边框）*/
 /*去掉列表前面的圆点*/
 ul, ol {
     list-style: none;
