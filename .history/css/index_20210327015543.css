@@ -62,8 +62,7 @@ ul, ol {
 h3 {
     position: absolute;
     left: 50%;
-    top: -7vw;
-    transform: translateX(-50%);
+    top: -20%;
     font-size: 4vw;
 }
 .tip {

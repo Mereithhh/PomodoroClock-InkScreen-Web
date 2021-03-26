@@ -7,10 +7,6 @@ $(()=>{
         $(".page").hide();
         $(".p1").show();
     });
-    $(".top-left").on("click",()=>{
-        $(".page").hide();
-        $(".p0").show();
-    });
     //切换学习时间/计划倒计时
     $(".top-right").on("click",()=>{
         isShowPlan = !isShowPlan;

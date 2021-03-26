@@ -57,13 +57,11 @@ ul, ol {
     margin: 0 auto;
     padding: 0 14vw;
     position: relative;
-    
+    left: 50%;
+    bottom: 20%;
 }
 h3 {
     position: absolute;
-    left: 50%;
-    top: -7vw;
-    transform: translateX(-50%);
     font-size: 4vw;
 }
 .tip {

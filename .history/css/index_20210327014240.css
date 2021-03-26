@@ -52,28 +52,6 @@ ul, ol {
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
 }
-/* 帮助界面 */
-.p0 {
-    margin: 0 auto;
-    padding: 0 14vw;
-    position: relative;
-    
-}
-h3 {
-    position: absolute;
-    left: 50%;
-    top: -7vw;
-    transform: translateX(-50%);
-    font-size: 4vw;
-}
-.tip {
-    border: 1px solid #999;
-}
-.p0 p {
-    margin: 2vw 0 ;
-    text-align: center;
-    font-size: 3vw;
-}
 /* 开始第一页 */
 .top {
     position: relative;

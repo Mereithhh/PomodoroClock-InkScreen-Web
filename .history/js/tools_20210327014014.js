@@ -127,38 +127,10 @@ function showNowTime(){
     //是否开启钟表模式
     if(isClock){
         console.log(h+m);
-        let arr = [h.toString()[0],h.toString()[1],m.toString()[0],m.toString()[1]]
-        $("#n1").text(arr[0]);
-        $("#n2").text(arr[1]);
-        $("#n4").text(arr[2]);
-        $("#n5").text(arr[3]);
-        if(arr[0]==1){
-            $("#n1").css("transform","translate(30%)");
-        }
-        else {
-            $("#n1").css("transform","none");
-        }
-        $("#n2").text(arr[1]);
-        if(arr[1]==1){
-            $("#n2").css("transform","translate(30%)");
-        }
-        else {
-            $("#n2").css("transform","none");
-        }
-        $("#n4").text(arr[2]);
-        if(arr[2]==1){
-            $("#n4").css("transform","translate(30%)");
-        }
-        else {
-            $("#n4").css("transform","none");
-        }
-        $("#n5").text(arr[3]);
-        if(arr[3]==1){
-            $("#n5").css("transform","translate(30%)");
-        }
-        else {
-            $("#n5").css("transform","none");
-        }
+        $("#n1").text(h.toString()[0]);
+        $("#n2").text(h.toString()[1]);
+        $("#n4").text(m.toString()[0]);
+        $("#n5").text(m.toString()[1]);
     }
     else{
         showRestTime();

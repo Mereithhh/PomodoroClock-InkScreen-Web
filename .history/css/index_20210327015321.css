@@ -56,15 +56,6 @@ ul, ol {
 .p0 {
     margin: 0 auto;
     padding: 0 14vw;
-    position: relative;
-    
-}
-h3 {
-    position: absolute;
-    left: 50%;
-    top: -7vw;
-    transform: translateX(-50%);
-    font-size: 4vw;
 }
 .tip {
     border: 1px solid #999;

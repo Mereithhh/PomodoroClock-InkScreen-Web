@@ -62,7 +62,7 @@ ul, ol {
 h3 {
     position: absolute;
     left: 50%;
-    top: -7vw;
+    top: -6vw;
     transform: translateX(-50%);
     font-size: 4vw;
 }

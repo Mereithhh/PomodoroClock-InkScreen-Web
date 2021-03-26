@@ -2,23 +2,9 @@
 $(()=>{
     let myChart ;
     //绑定事件
-    //绑定提示取消
-    $(".p0").on("click",()=>{
-        $(".page").hide();
-        $(".p1").show();
-    });
-    $(".top-left").on("click",()=>{
-        $(".page").hide();
-        $(".p0").show();
-    });
     //切换学习时间/计划倒计时
     $(".top-right").on("click",()=>{
         isShowPlan = !isShowPlan;
-    });
-    //切换时钟
-    $(".top-center").on("click",()=>{
-        isClock = !isClock;
-        showNowTime();
     });
     //播放按钮
     $(".play").on("click",()=>{
@@ -143,7 +129,7 @@ $(()=>{
             }
         }
         //如果在播放
-        if (isPlay && !isClock){
+        if (isPlay){
             if(!isRest){
                 $(".top-left").html(icon_study+"学习中");
                 study_time++;
