@@ -1,11 +1,9 @@
-const { NoSleep } = require("./NoSleep.min");
-
 // 入口函数
 $(()=>{
     let myChart ;
     let isFullScreen = false;
     //屏幕常量！
-    let noSleep = new NoSleep();
+    
     //绑定事件
     // 全屏
     $(".main").on("click",()=>{
@@ -21,7 +19,6 @@ $(()=>{
     $(".p0").on("click",()=>{
         $(".page").hide();
         $(".p1").show();
-        noSleep.enable();
     });
     $(".top-left").on("click",()=>{
         $(".page").hide();
