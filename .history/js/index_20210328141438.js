@@ -1,17 +1,10 @@
 // 入口函数
 $(()=>{
     let myChart ;
-    let isFullScreen = false;
     //绑定事件
     // 全屏
     $(".main").on("click",()=>{
-        if(isFullScreen){
-            document.exitFullscreen();
-        }
-        else{
-            document.body.requestFullscreen();
-        }
-        isFullScreen = !isFullScreen;
+        Document.requestFullscreen();
     });
     //绑定提示取消
     $(".p0").on("click",()=>{

@@ -195,12 +195,10 @@ button{
 }
 
 /* 全屏 */
-::backdrop {
-    z-index:0;  
-    background-color: white !important;
+*:fullscreen, *:-webkit-full-screen, *:-moz-full-screen {
+    background-color: white;
+    background: white;
 }
-
-html, *:fullscreen, *:-webkit-full-screen, *:-moz-full-screen {
-    background-color: white !important;
-    z-index:1;
+body:fullscreen{
+    background: white;
 }

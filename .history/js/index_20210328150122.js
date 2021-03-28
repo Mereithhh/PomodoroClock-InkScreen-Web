@@ -5,13 +5,11 @@ $(()=>{
     //绑定事件
     // 全屏
     $(".main").on("click",()=>{
-        if(isFullScreen){
-            document.exitFullscreen();
-        }
-        else{
-            document.body.requestFullscreen();
-        }
         isFullScreen = !isFullScreen;
+        if(isFullScreen){
+            Document.
+        }
+        document.body.requestFullscreen();
     });
     //绑定提示取消
     $(".p0").on("click",()=>{
